@@ -1,14 +1,14 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Alas.dev",
+		name: "Ace Labador",
+		email: "ac3labador@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
+		github: "https://github.com/Alas-3",
 		linkedin: "https://linkedin.com/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
@@ -16,15 +16,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Ace Labador | Web Developer",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React.js, Next.js, and Tailwind CSS. With significant experience in creating visually appealing and highly functional web applications, I leverage tools like Firebase to build robust full-stack solutions. I have a background in sales, which enriches my user-centric approach to development. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I blend design and code to craft the future of web experiences.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Greetings! I'm Ace, from the ever-sunny or always-raining Philippines. Picture a fusion of design savvy and coding wizardry – that's me, crafting the digital future one pixel at a time. Ever the innovator, I blend creativity and code like a master chef mixes ingredients, concocting web experiences that leave users craving more. With a design sense sharper than a samurai sword and coding skills smoother than jazz on a summer night, I'm here to elevate your digital game. Let's join forces and turn your digital dreams into reality. After all, why settle for ordinary when you can have extraordinary?",
 	},
 
 	articles: {
@@ -35,28 +35,28 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "E-Registrar",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A Queue Management System built with React & Firebase",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", //USED DEVICON FOR ICONS
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "QR Code Generator",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A Simple QR Code generator built with Nextjs & Tailwindcss",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 3",
+			title: "Weather Checker",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"A Weather Checking App built with Nextjs, Tailwindcss & WeatherAPI",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
@@ -64,7 +64,7 @@ const INFO = {
 		{
 			title: "Project 4",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Still under development",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
@@ -73,7 +73,16 @@ const INFO = {
 		{
 			title: "Project 5",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Still under development",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
+
+		{
+			title: "Project 6",
+			description:
+				"Still under development",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
