@@ -1,3 +1,5 @@
+@import "../../data/styles.css";
+
 .projects-logo-container {
 	display: flex;
 	justify-content: left;

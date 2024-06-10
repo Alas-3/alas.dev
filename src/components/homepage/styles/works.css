@@ -7,7 +7,7 @@
 .work {
 	display: flex;
 	padding-bottom: 40px;
-	width: 610px;
+	width: 300px;
 }
 
 .work-image {
@@ -36,7 +36,7 @@
 
 .work-duration {
 	position: absolute;
-	width: 350px;
+	width: 300px;
 	font-size: 12px;
 	padding-top: 20px;
 	text-align: right;

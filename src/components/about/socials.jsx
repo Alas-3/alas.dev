@@ -6,6 +6,7 @@ import {
 	faGithub,
 	faLinkedin,
 	faInstagram,
+	faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
@@ -15,6 +16,18 @@ import "./styles/socials.css";
 const Socials = () => {
 	return (
 		<div className="socials">
+			<div className="social">
+				<a href={INFO.socials.facebook} target="_blank" rel="noreferrer">
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faFacebook}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Add on Facebook</div>
+				</a>
+			</div>
+
 			<div className="social">
 				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
 					<div className="social-icon">

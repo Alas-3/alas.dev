@@ -3,12 +3,13 @@
 .card {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	outline: 2px solid #f4f4f5;
+	outline: 1px solid #f4f4f5;
 }
 
 .card-container {
 	padding: 30px;
 	padding-bottom: 5px;
+	width: 200px;
 }
 
 .card-header {

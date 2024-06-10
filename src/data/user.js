@@ -2,17 +2,17 @@ const INFO = {
 	main: {
 		title: "Alas.dev",
 		name: "Ace Labador",
-		email: "ac3labador@gmail.com",
+		email: "alasss.dev@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
+		twitter: "https://x.com/Ac3Labador",
 		github: "https://github.com/Alas-3",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		linkedin: "https://www.linkedin.com/in/ace-labador-aa6a9524b/",
+		instagram: "https://www.instagram.com/ac3labador/",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		facebook: "https://www.facebook.com/ace.labador.3",
 	},
 
 	homepage: {
@@ -40,7 +40,7 @@ const INFO = {
 				"A Queue Management System built with React & Firebase",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", //USED DEVICON FOR ICONS
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Alas-3/CAPSTONE-E-Registrar",
 		},
 
 		{
@@ -49,7 +49,7 @@ const INFO = {
 				"A Simple QR Code generator built with Nextjs & Tailwindcss",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://qr-generator-app-umber.vercel.app/",
 		},
 
 		{
@@ -58,7 +58,7 @@ const INFO = {
 				"A Weather Checking App built with Nextjs, Tailwindcss & WeatherAPI",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://weather-checker-self.vercel.app/",
 		},
 
 		{
