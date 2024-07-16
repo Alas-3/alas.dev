@@ -1,35 +1,35 @@
 @import "../../../data/styles.css";
 
-.card {
+.card-home {
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	outline: 1px solid #f4f4f5;
 }
 
-.card-container {
+.card-container-home {
 	padding: 30px;
 	padding-bottom: 5px;
 	width: 200px;
 }
 
-.card-header {
+.card-header-home {
 	display: flex;
 	align-items: center;
 }
 
-.card-icon {
+.card-icon-home {
 	font-size: 15px;
 	color: var(--tertiary-color);
 }
 
-.card-title {
+.card-title-home {
 	color: var(--secondary-color);
 	font-size: 14px;
 	padding-left: 20px;
 	font-weight: 650;
 }
 
-.card-body {
+.card-body-home {
 	padding-top: 40px;
 	font-size: 15px;
 }
