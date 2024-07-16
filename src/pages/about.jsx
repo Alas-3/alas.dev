@@ -9,6 +9,8 @@ import Socials from "../components/about/socials";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
+import CERTIFICATES from "../data/certificates"; 
+
 import "./styles/about.css";
 
 const About = () => {
@@ -69,6 +71,39 @@ const About = () => {
 						<div className="about-socials-mobile">
 							<Socials />
 						</div>
+
+						<div className="certificates-section">
+							<h2>My Certifications</h2>
+							<div className="certificates-grid">
+								{CERTIFICATES.map((cert, index) => (
+									<div key={index} className="card"> 
+										<div className="card-container">
+											<div className="certificate-info">
+												<div className="certificate-header">
+													{cert.logo && (
+														<img src={cert.logo} alt={`${cert.issuer} logo`} className="certificate-logo" />
+													)}
+													<div>
+														<div className="certificate-title">{cert.title}</div>
+														<div className="certificate-issuer">Issued by: {cert.issuer}</div>
+													</div>
+												</div>
+												<div className="certificate-date">Date: {cert.date}</div>
+												{cert.description && (
+													<div className="certificate-description">{cert.description}</div>
+												)}
+											</div>
+											{cert.link && (
+												<a href={cert.link} target="_blank" rel="noopener noreferrer" className="certificate-link">
+													View Certificate
+												</a>
+											)}
+										</div>
+									</div>
+								))}
+							</div>
+						</div>
+
 					</div>
 					<div className="page-footer">
 						<Footer />

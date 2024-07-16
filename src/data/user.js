@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Ace Labador | Web Developer",
 		description:
-			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React.js, Next.js, and Tailwind CSS. With significant experience in creating visually appealing and highly functional web applications, I leverage tools like Firebase to build robust full-stack solutions. I have a background in sales, which enriches my user-centric approach to development. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
+			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React.js, Next.js, and Tailwind CSS. With significant experience in creating visually appealing and highly functional web applications, I leverage tools like Firebase to build robust full-stack solutions. I also have a background in sales, which enriches my user-centric approach to development. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
 	},
 
 	about: {
@@ -46,7 +46,7 @@ const INFO = {
 		{
 			title: "QR Code Generator",
 			description:
-				"A QR Code generator built with Nextjs & Tailwindcss",
+				"A QR Code Generator built with Nextjs & TailwindCSS",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
 			link: "https://qr-generator-app-umber.vercel.app/",
@@ -55,7 +55,7 @@ const INFO = {
 		{
 			title: "Weather Checker",
 			description:
-				"A Weather Checking App built with Nextjs, Tailwindcss & WeatherAPI",
+				"A Weather Checking App built with Nextjs, TailwindCSS & WeatherAPI",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
 			link: "https://weather-checker-self.vercel.app/",
@@ -64,7 +64,7 @@ const INFO = {
 		{
 			title: "BAHA.io",
 			description:
-				"A flood awareness website built with HTML, CSS, JavaScript, and PHP",
+				"A Flood Awareness website built with HTML, CSS, JavaScript, and PHP",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
 			linkText: "View Project",
 			link: "https://baha-finals.vercel.app/",
@@ -86,7 +86,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
-		},
+		},	
 	],
 };
 

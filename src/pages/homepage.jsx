@@ -5,6 +5,7 @@ import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faFacebook,
+	faLinkedin,
 	faGithub,
 	//faStackOverflow,
 	//faInstagram,
@@ -115,7 +116,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
+							{/*<a
 								href={INFO.socials.facebook}
 								target="_blank"
 								rel="noreferrer"
@@ -124,7 +125,19 @@ const Homepage = () => {
 									icon={faFacebook}
 									className="homepage-social-icon"
 								/>
+						</a>*/}
+
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
+									className="homepage-social-icon"
+								/>
 							</a>
+
 							{/*<a
 								href={INFO.socials.twitter}
 								target="_blank"
