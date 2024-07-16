@@ -46,7 +46,7 @@ const INFO = {
 		{
 			title: "QR Code Generator",
 			description:
-				"A Simple QR Code generator built with Nextjs & Tailwindcss",
+				"A QR Code generator built with Nextjs & Tailwindcss",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
 			link: "https://qr-generator-app-umber.vercel.app/",
@@ -62,12 +62,12 @@ const INFO = {
 		},
 
 		{
-			title: "Project 4",
+			title: "BAHA.io",
 			description:
-				"Still under development",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A flood awareness website built with HTML, CSS, JavaScript, and PHP",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://baha-finals.vercel.app/",
 		},
 
 		{
