@@ -46,6 +46,8 @@
 
 .about-image-container {
     width: 370px;
+    display: flex; /* Ensure it's a flex container */
+    justify-content: center; /* Center content horizontally */
 }
 
 .about-image-wrapper {
@@ -118,6 +120,7 @@
 
     .about-image-container {
         width: 80%;
+        margin: 0 auto; /* Center the image */
     }
 }
 

@@ -71,12 +71,12 @@ const INFO = {
 		},
 
 		{
-			title: "Project 5",
+			title: "AniGuess",
 			description:
-				"Still under development",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"An Anime-related Guessing Game built with Nextjs, TailwindCSS & Open Trivia API",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://anime-guess-9k9b-sepia.vercel.app/",
 		},
 
 		{
