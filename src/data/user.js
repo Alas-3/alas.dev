@@ -80,12 +80,12 @@ const INFO = {
 		},
 
 		{
-			title: "Project 6",
+			title: "UniFinder",
 			description:
-				"Still under development",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A University Finder App built with Nextjs, TailwindCSS & HipoLabs API",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://uni-finder-beige.vercel.app/",
 		},	
 	],
 };
