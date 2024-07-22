@@ -62,10 +62,10 @@ const INFO = {
 		},
 
 		{
-			title: "BAHA.io",
+			title: "StormSignal",
 			description:
-				"A Flood Awareness website built with HTML, CSS, JavaScript, and PHP",
-			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+				"A Weather Tracking App with Typhoon alerts based on users' location. Built with Nextjs, TailwindCSS, WeatherAPI, Typhoon alerts scraped off of pagasa.dost.gov.ph",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
 			link: "https://baha-finals.vercel.app/",
 		},
@@ -87,6 +87,15 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://uni-finder-beige.vercel.app/",
 		},	
+		
+		{
+			title: "BAHA.io",
+			description:
+				"A Flood Awareness website built with HTML, CSS, JavaScript, and PHP",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+			linkText: "View Project",
+			link: "https://baha-finals.vercel.app/",
+		},
 	],
 };
 
