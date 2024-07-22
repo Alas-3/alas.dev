@@ -67,7 +67,7 @@ const INFO = {
 				"A Weather Tracking App with Typhoon alerts based on users' location. Built with Nextjs, TailwindCSS, WeatherAPI, Typhoon alerts scraped off of pagasa.dost.gov.ph",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			linkText: "View Project",
-			link: "https://baha-finals.vercel.app/",
+			link: "https://typhoon-tracker-ph.vercel.app/",
 		},
 
 		{
