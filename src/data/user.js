@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Ace Labador | Web Developer",
 		description:
-			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React.js, Next.js, and Tailwind CSS. With significant experience in creating visually appealing and highly functional web applications, I leverage tools like Firebase to build robust full-stack solutions. I also have a background in sales, which enriches my user-centric approach to development. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
+			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React, Next.js, and Tailwind. With extensive expertise in developing visually appealing and highly functional web apps, I leverage tools like Firebase to build robust full-stack solutions. I also have a background in sales, which enriches my user-centric approach to development. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
 	},
 
 	about: {
@@ -37,8 +37,9 @@ const INFO = {
 		{
 			title: "E-Registrar",
 			description:
-				"A Queue Management System built with React & Firebase",
+				"A Queue Management System",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", //USED DEVICON FOR ICONS
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
 			linkText: "View Project",
 			link: "https://github.com/Alas-3/CAPSTONE-E-Registrar",
 		},
@@ -46,8 +47,9 @@ const INFO = {
 		{
 			title: "QR Code Generator",
 			description:
-				"A QR Code Generator built with Nextjs & TailwindCSS",
+				"A QR Code Generator",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
 			link: "https://qr-generator-app-umber.vercel.app/",
 		},
@@ -55,8 +57,9 @@ const INFO = {
 		{
 			title: "Weather Checker",
 			description:
-				"A Weather Checking App built with Nextjs, TailwindCSS & WeatherAPI",
+				"A Weather Checking App utilizing WeatherAPI",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
 			link: "https://weather-checker-self.vercel.app/",
 		},
@@ -64,8 +67,10 @@ const INFO = {
 		{
 			title: "StormSignal",
 			description:
-				"A Weather Tracking App with Typhoon alerts based on users' location. Built with Nextjs, TailwindCSS, WeatherAPI, Typhoon alerts scraped off of pagasa.dost.gov.ph",
+				"A Weather Tracking App with Typhoon alerts. Alerts scraped off from pagasa.dost.gov.ph",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
 			linkText: "View Project",
 			link: "https://typhoon-tracker-ph.vercel.app/",
 		},
@@ -73,8 +78,9 @@ const INFO = {
 		{
 			title: "AniGuess",
 			description:
-				"An Anime-related Guessing Game built with Nextjs, TailwindCSS & Open Trivia API",
+				"An Anime-related Guessing Game utilizing Open Trivia API",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
 			link: "https://anime-guess-9k9b-sepia.vercel.app/",
 		},
@@ -82,17 +88,21 @@ const INFO = {
 		{
 			title: "UniFinder",
 			description:
-				"A University Finder App built with Nextjs, TailwindCSS & HipoLabs API",
+				"A University Finder App utilizng HipoLabs API",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
 			link: "https://uni-finder-beige.vercel.app/",
 		},	
 		
 		{
-			title: "BAHA.io",
+			title: "BAHA",
 			description:
-				"A Flood Awareness website built with HTML, CSS, JavaScript, and PHP",
+				"A Flood Awareness Website for select places in the Philippines",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+			logo4: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
 			linkText: "View Project",
 			link: "https://baha-finals.vercel.app/",
 		},

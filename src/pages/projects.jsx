@@ -44,16 +44,14 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+						I've worked on a diverse range of projects over the years, and I'm proud of the strides
+						I've made in my development journey. My primary tech stack revolves around React, Next.js, and Tailwind CSS,
+						which I utilize to develop intuitive and responsive front-end web apps. On the backend, 
+						I leverage BaaS platforms like Firebase, Supabase, and Appwrite to create seamless full-stack web applications that scale effectively.
+						Many of these projects are open-source and available for others to explore. 
+						If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any 
+						improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new 
+						ideas and feedback.
 						</div>
 
 						<div className="projects-list">
