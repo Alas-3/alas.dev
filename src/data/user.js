@@ -45,9 +45,31 @@ const INFO = {
 		},
 
 		{
+			title: "Himitsu",
+			description:
+				"An Anime Streaming App scraping GogoAnime also utilizing JikanAPI",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
+			linkText: "View Project",
+			link: "https://typhoon-tracker-ph.vercel.app/",
+		},
+
+		{
+			title: "StormSignal",
+			description:
+				"A Weather App with Typhoon alerts. Alerts scraped off from pagasa.dost.gov.ph",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
+			linkText: "View Project",
+			link: "https://typhoon-tracker-ph.vercel.app/",
+		},
+
+		{
 			title: "QR Code Generator",
 			description:
-				"A QR Code Generator",
+				"A QR Code Generator App",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
@@ -64,16 +86,6 @@ const INFO = {
 			link: "https://weather-checker-self.vercel.app/",
 		},
 
-		{
-			title: "StormSignal",
-			description:
-				"A Weather Tracking App with Typhoon alerts. Alerts scraped off from pagasa.dost.gov.ph",
-			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
-			linkText: "View Project",
-			link: "https://typhoon-tracker-ph.vercel.app/",
-		},
 
 		{
 			title: "AniGuess",
