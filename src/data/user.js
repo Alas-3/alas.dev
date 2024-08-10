@@ -47,12 +47,12 @@ const INFO = {
 		{
 			title: "Himitsu",
 			description:
-				"An Anime Streaming App scraping GogoAnime also utilizing JikanAPI",
+				"A Private Anime Streaming App",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
 			linkText: "View Project",
-			link: "https://typhoon-tracker-ph.vercel.app/",
+			link: "https://asdfghjkl-xi.vercel.app/",
 		},
 
 		{
