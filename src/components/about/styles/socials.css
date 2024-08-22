@@ -26,9 +26,7 @@
 .email::before {
 	content: "";
 	display: block;
-	padding-top: 20px;
 	border-top: 3px solid #f4f4f5;
-	margin-top: 20px;
 }
 
 .email-wrapper {

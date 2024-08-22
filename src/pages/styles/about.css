@@ -72,6 +72,10 @@
     display: none;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
 /* Media Queries */
 @media (max-width: 1024px) {
     .about-logo {
@@ -143,6 +147,8 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     flex-direction: column; /* Ensure cards stack vertically */
     margin-bottom: 20px; /* Add margin between cards for better spacing */
+    text-decoration: none;
+	color: inherit;
 }
 
 .card-container {
@@ -172,14 +178,14 @@
 .certificate-title {
     font-size: 1.2em;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
-.certificate-issuer,
+/*.certificate-issuer,
 .certificate-date,
 .certificate-description {
     margin-bottom: 5px;
-}
+}*/
 
 .certificate-link {
     text-decoration: none;
@@ -213,17 +219,25 @@
     }
 
     .certificate-logo {
-        width: 30px; /* Adjust logo size */
+        /* width: 30px;  Adjust logo size */
         margin-right: 10px;
     }
 
     .certificate-title {
         font-size: 1.1em; /* Adjust font size for smaller screens */
-        margin-bottom: 10px; /* Adjust margin bottom for title */
+        margin-bottom: 1px; /* Adjust margin bottom for title */
     }
 
     .certificate-info {
         padding-right: 15px; /* Adjust padding right for information */
+    }
+
+    .certificate-description {
+        font-size: 0.5em;
+    }
+
+    .certificate-issuer {
+        font-size: 0.7em;
     }
 }
 

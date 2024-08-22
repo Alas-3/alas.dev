@@ -71,12 +71,11 @@ const About = () => {
 						<div className="about-socials-mobile">
 							<Socials />
 						</div>
-
 						<div className="certificates-section">
 							<h2>My Certifications</h2>
 							<div className="certificates-grid">
-								{CERTIFICATES.map((cert, index) => (
-									<div key={index} className="card"> 
+								{CERTIFICATES.map((cert, index) => {
+									const CardContent = (
 										<div className="card-container">
 											<div className="certificate-info">
 												<div className="certificate-header">
@@ -85,22 +84,30 @@ const About = () => {
 													)}
 													<div>
 														<div className="certificate-title">{cert.title}</div>
-														<div className="certificate-issuer">Issued by: {cert.issuer}</div>
+														<div className="certificate-issuer">
+															Issued by: <span className="bold-text">{cert.issuer}</span>  |  
+															Issued on: <span className="bold-text">{cert.date}</span>
+														</div>
 													</div>
 												</div>
-												<div className="certificate-date">Date: {cert.date}</div>
+												
 												{cert.description && (
 													<div className="certificate-description">{cert.description}</div>
 												)}
 											</div>
-											{cert.link && (
-												<a href={cert.link} target="_blank" rel="noopener noreferrer" className="certificate-link">
-													View Certificate
-												</a>
-											)}
 										</div>
-									</div>
-								))}
+									);
+
+									return cert.link ? (
+										<a key={index} href={cert.link} target="_blank" rel="noopener noreferrer" className="card"> 
+											{CardContent}
+										</a>
+									) : (
+										<div key={index} className="card">
+											{CardContent}
+										</div>
+									);
+								})}
 							</div>
 						</div>
 

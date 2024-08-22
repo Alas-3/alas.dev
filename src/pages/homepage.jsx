@@ -12,6 +12,8 @@ import {
 	//faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
+import { faCertificate } from '@fortawesome/free-solid-svg-icons';
+
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
@@ -126,6 +128,16 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 						</a>*/}
+
+						<a
+								href={INFO.socials.credly}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon icon={faCertificate}
+									className="homepage-social-icon"
+								/>
+							</a>
 
 							<a
 								href={INFO.socials.linkedin}

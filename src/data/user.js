@@ -13,6 +13,7 @@ const INFO = {
 		instagram: "https://www.instagram.com/ac3labador/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://www.facebook.com/ace.labador.3",
+		credly: "https://www.credly.com/users/ace-labador",
 	},
 
 	homepage: {
@@ -112,13 +113,12 @@ const INFO = {
 			description:
 				"A Flood Awareness Website for select places in the Philippines",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-			logo4: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
 			linkText: "View Project",
 			link: "https://baha-finals.vercel.app/",
 		},
-	],
+	]
 };
 
 export default INFO;
