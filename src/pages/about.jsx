@@ -86,7 +86,7 @@ const About = () => {
 														<div className="certificate-title">{cert.title}</div>
 														<div className="certificate-issuer">
 															Issued by: <span className="bold-text">{cert.issuer}</span>  |  
-															Issued on: <span className="bold-text">{cert.date}</span>
+															Issued: <span className="bold-text">{cert.date}</span>
 														</div>
 													</div>
 												</div>
