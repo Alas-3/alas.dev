@@ -55,7 +55,7 @@
     overflow: hidden;
     width: 100%;
     border-radius: 10%;
-    transform: rotate(3deg);
+    /* transform: rotate(3deg); */
 }
 
 .about-image-wrapper img {
@@ -201,7 +201,7 @@
     }
 
     .about-image-container {
-        width: 80%;
+        width: 100%;
     }
 
     .certificates-section {
