@@ -5,7 +5,7 @@ const CERTIFICATES = [
         issuer: "Coursera",
         date: "August 2024",
         link: "https://www.coursera.org/account/accomplishments/specialization/4SK3A56V1L08",
-        description: "Awarded for completing all 11 courses of the IBM Front-End Developer Program",
+        description: "Awarded for completing all 11 courses of the IBM Front-End Developer Specialization",
         logo: "https://images.credly.com/size/680x680/images/e646f624-ca3d-4917-9e90-16a051497bdb/image.png" // Add the logo URL here
     },
     {
@@ -13,7 +13,7 @@ const CERTIFICATES = [
         issuer: "Coursera",
         date: "August 2024",
         link: "https://www.coursera.org/account/accomplishments/specialization/0ME3YQZD92SX",
-        description: "Awarded for completing all 9 courses of the Meta Front-End Developer Program",
+        description: "Awarded for completing all 9 courses of the Meta Front-End Developer Specialization",
         logo: "https://images.credly.com/size/680x680/images/e91ed0b0-842b-417f-8d2f-b07535febdda/image.png" // Add the logo URL here
     },
     {
