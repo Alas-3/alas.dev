@@ -56,7 +56,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="https://avatars.githubusercontent.com/u/87595218?v=4"
+											src="https://github.com/Alas-3/Alas-3/blob/main/personal_logo_withoutBG.png?raw=true"
 											alt="about"
 											className="about-image"
 										/>

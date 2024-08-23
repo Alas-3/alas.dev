@@ -50,4 +50,8 @@
 	.project-logo img {
 		max-width: 30px; /* Adjust size for smaller screens */
 	}
+
+	#projects-title1 {
+		padding-top: 1.5rem;
+	}
 }

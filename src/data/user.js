@@ -19,7 +19,7 @@ const INFO = {
 	homepage: {
 		title: "Ace Labador | Web Developer",
 		description:
-			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React, Next.js, and Tailwind. With extensive expertise in developing visually appealing and highly functional web apps, I leverage tools like Firebase to build robust full-stack solutions. I also have a background in sales, which enriches my user-centric approach to development. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
+			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React, Next.js, and Tailwind. With extensive expertise in developing visually appealing and highly functional web apps, I use Backend-as-a-Service (BaaS) platforms like Firebase to build robust full-stack applications. I also have a background in sales, which enriches my user-centric approach in developing. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
 	},
 
 	about: {
@@ -59,7 +59,7 @@ const INFO = {
 		{
 			title: "StormSignal",
 			description:
-				"A Weather App with Typhoon alerts. Alerts scraped off from pagasa.dost.gov.ph",
+				"A Location-based Weather App with Typhoon alerts",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
@@ -111,7 +111,7 @@ const INFO = {
 		{
 			title: "BAHA",
 			description:
-				"A Flood Awareness Website for select places in the Philippines",
+				"A Flood Awareness Website",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
 			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",

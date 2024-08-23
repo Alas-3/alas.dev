@@ -8,7 +8,7 @@ body, html {
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	padding-top: 150px;
+	padding-top: 100px;
 }
 
 .homepage-container {
@@ -94,7 +94,7 @@ body, html {
 
 .homepage-works {
 	flex-basis: 600px;
-	padding-top: 30px;
+	/* padding-top: 30px; */
 }
 
 @media (max-width: 1024px) {
@@ -154,11 +154,15 @@ body, html {
 }
 
 @media (max-width: 600px) {
-	.homepage-container {
+	/*.homepage-container {
 		padding-top: 60px;
-	}
+	}*/
 
 	.homepage-image-container {
 		width: 80%;
+	}
+
+	.homepage-container {
+		padding-top: 0;
 	}
 }

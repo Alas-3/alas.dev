@@ -38,7 +38,7 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-container">
-						<div className="title projects-title">
+						<div id="projects-title1" className="title projects-title">
 							Things I’ve made trying to put my dent in the
 							universe.
 						</div>
@@ -49,7 +49,7 @@ const Projects = () => {
 						which I utilize to develop intuitive and responsive front-end web apps. On the backend, 
 						I leverage BaaS platforms like Firebase, Supabase, and Appwrite to create seamless full-stack web applications that scale effectively.
 						Many of these projects are open-source and available for others to explore. 
-						If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any 
+						If you're interested in any of the projects I've worked on, please feel free to check them out and suggest any 
 						improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new 
 						ideas and feedback.
 						</div>
