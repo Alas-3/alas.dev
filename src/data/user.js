@@ -9,7 +9,7 @@ const INFO = {
 	socials: {
 		twitter: "https://x.com/Ac3Labador",
 		github: "https://github.com/Alas-3",
-		linkedin: "https://www.linkedin.com/in/ace-labador-aa6a9524b/",
+		linkedin: "https://www.linkedin.com/in/alasdev/",
 		instagram: "https://www.instagram.com/ac3labador/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://www.facebook.com/ace.labador.3",
@@ -19,7 +19,7 @@ const INFO = {
 	homepage: {
 		title: "Ace Labador | Web Developer",
 		description:
-			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React, Next.js, and Tailwind. With extensive expertise in developing visually appealing and highly functional web apps, I use Backend-as-a-Service (BaaS) platforms like Firebase to build robust full-stack applications. I also have a background in sales, which enriches my user-centric approach in developing. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
+			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React, Next.js, and Tailwind. With extensive expertise in developing visually appealing and highly functional web apps, I use Backend-as-a-Service (BaaS) platforms like Firebase/Supabase to build robust full-stack applications. I also have a background in sales, which enriches my user-centric approach in developing. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
 	},
 
 	about: {
@@ -40,7 +40,8 @@ const INFO = {
 			description:
 				"A Queue Management System",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", //USED DEVICON FOR ICONS
-			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
 			linkText: "View Project",
 			link: "https://github.com/Alas-3/CAPSTONE-E-Registrar",
 		},
@@ -50,10 +51,10 @@ const INFO = {
 			description:
 				"A Private Anime Streaming App",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
 			linkText: "View Project",
-			link: "https://asdfghjkl-xi.vercel.app/",
+			link: "https://projecthimitsu.vercel.app/",
 		},
 
 		{
@@ -62,7 +63,7 @@ const INFO = {
 				"A Location-based Weather App with Typhoon alerts",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
 			linkText: "View Project",
 			link: "https://typhoon-tracker-ph.vercel.app/",
 		},

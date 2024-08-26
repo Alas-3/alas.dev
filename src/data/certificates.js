@@ -1,7 +1,7 @@
 // src/data/certificates.js
 const CERTIFICATES = [
     {
-        title: "IBM Front-End Developer",
+        title: "IBM Front-End Developer Professional Certificate",
         issuer: "Coursera",
         date: "August 2024",
         link: "https://www.coursera.org/account/accomplishments/specialization/4SK3A56V1L08",
@@ -9,12 +9,20 @@ const CERTIFICATES = [
         logo: "https://images.credly.com/size/680x680/images/e646f624-ca3d-4917-9e90-16a051497bdb/image.png" // Add the logo URL here
     },
     {
-        title: "Meta Front-End Developer",
+        title: "Meta Front-End Developer Professional Certificate",
         issuer: "Coursera",
         date: "August 2024",
         link: "https://www.coursera.org/account/accomplishments/specialization/0ME3YQZD92SX",
         description: "Awarded for completing all 9 courses of the Meta Front-End Developer Specialization",
         logo: "https://images.credly.com/size/680x680/images/e91ed0b0-842b-417f-8d2f-b07535febdda/image.png" // Add the logo URL here
+    },
+    {
+        title: "Google IT Support Professional Certificate",
+        issuer: "Coursera",
+        date: "August 2024",
+        link: "https://www.coursera.org/account/accomplishments/specialization/6MJ169KOYN74",
+        description: "Awarded for completing all 9 courses of the Meta Front-End Developer Specialization",
+        logo: "https://images.credly.com/size/680x680/images/fb97a12f-c0f1-4f37-9b7d-4a830199fe84/GCC_badge_IT_Support_1000x1000.png" // Add the logo URL here
     },
     {
         title: "Front-End Development with React V2",
