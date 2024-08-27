@@ -21,8 +21,16 @@ const CERTIFICATES = [
         issuer: "Coursera",
         date: "August 2024",
         link: "https://www.coursera.org/account/accomplishments/specialization/6MJ169KOYN74",
-        description: "Awarded for completing all 9 courses of the Meta Front-End Developer Specialization",
+        description: "Awarded for completing all 5 courses of the Google IT Support Specialization",
         logo: "https://images.credly.com/size/680x680/images/fb97a12f-c0f1-4f37-9b7d-4a830199fe84/GCC_badge_IT_Support_1000x1000.png" // Add the logo URL here
+    },
+    {
+        title: "Google Project Management Professional Certificate",
+        issuer: "Coursera",
+        date: "August 2024",
+        link: "https://www.coursera.org/account/accomplishments/specialization/EZ8JDDLZNOZT",
+        description: "Awarded for completing all 6 courses of the Google Project Management Specialization",
+        logo: "https://images.credly.com/size/680x680/images/51dff787-71ae-4d9d-9ca7-ef9342914d75/GCC_badge_PGM_1000x1000.png" // Add the logo URL here
     },
     {
         title: "Front-End Development with React V2",
