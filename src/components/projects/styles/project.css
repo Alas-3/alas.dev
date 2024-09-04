@@ -1,72 +1,119 @@
-@import "../../../data/styles.css";
+/* components/styles/project.css */
 
 .project {
-	mix-blend-mode: normal;
-	border-radius: 20px;
-	opacity: 0.8;
-	height: 100%;
-}
-
-.project a {
-	text-decoration: none;
-}
-
-.project:hover {
-	background: #fafafa;
-	opacity: 1;
-	transition: background-color 0.3s ease-in-out;
-}
-
-.project:hover .project-link {
-	color: var(--link-color);
-	transition: color 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 10px; /* Adjust spacing between project items */
+    flex: 1 1 auto; /* Allow flex items to grow and shrink */
 }
 
 .project-container {
-	padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background: var(--background-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    height: 300px; /* Set a fixed height */
+    box-sizing: border-box; /* Include padding in height calculation */
+    min-height: 300px; /* Ensure minimum height for uniformity */
+    overflow: hidden; /* Hide overflow to maintain uniform size */
+}
+
+.project:hover .project-container {
+    transform: translateY(-5px);
 }
 
 .project-logo {
-	width: 30px;
+    display: flex;
+    flex-direction: row; /* Align logos horizontally */
+    align-items: center; /* Align logos to the top */
+    gap: 10px; /* Space between logos */
+    margin-bottom: 15px;
 }
 
 .project-logo img {
-	width: 100%;
+    width: 30px; /* Smaller logo size */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .project-title {
-	font-family: var(--secondary-font);
-	color: var(--primary-color);
-	font-size: 16px;
-	padding-top: 15px;
-	margin-bottom: 1em;
-	font-weight: 700;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .project-description {
-	color: var(--secondary-color);
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    max-height: 60px; /* Set a maximum height for description */
+    overflow: hidden; /* Hide overflow to manage long text */
+    font-size: 14px; /* Optional: adjust font size */
 }
 
 .project-link {
-	display: flex;
-	align-items: center;
-	color: var(--secondary-color);
-	font-size: 12px;
-	padding-top: 20px;
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    font-size: 12px;
 }
 
 .project-link-icon {
-	padding-left: 5px;
-	font-size: 13px;
+    padding-left: 5px;
+    font-size: 14px;
 }
 
 .project-link-text {
-	padding-left: 20px;
-	font-weight: 700;
+    padding-left: 10px;
+    font-weight: 700;
 }
 
+.all-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Adjust spacing between project items */
+.all-projects-project {
+    flex: 1 1 calc(33.333% - 20px); /* Three items per row with space */
+    margin: 10px; /* Adjust margin */
+    box-sizing: border-box;
+    min-height: 300px; /* Ensure a minimum height */
+    max-width: calc(33.333% - 20px); /* Ensure containers are not wider */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Media query for devices with a max width of 600px (Tablets and mobile phones) */
 @media (max-width: 600px) {
-	.project {
-		height: 300px;
-	}
+    .all-projects-container {
+        padding: 10px; /* Reduce padding for mobile */
+    }
+
+    .all-projects-project {
+        flex: 1 1 calc(50% - 20px); /* Two items per row */
+        margin: 5px; /* Adjust margin for mobile */
+        min-height: 250px; /* Adjust minimum height */
+        max-width: calc(50% - 10px); /* Ensure containers are not wider */
+    }
+}
+
+/* Media query for devices with a max width of 400px (Small mobile phones) */
+@media (max-width: 400px) {
+    .all-projects-container {
+        padding: 5px; /* Further reduce padding for very small screens */
+    }
+
+    .all-projects-project {
+        flex: 1 1 100%; /* Full width on very small screens */
+        margin: 5px; /* Reduce margin for very small screens */
+        min-height: 200px; /* Adjust minimum height */
+    }
 }
