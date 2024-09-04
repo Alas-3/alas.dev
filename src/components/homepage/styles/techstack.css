@@ -1,0 +1,142 @@
+/* components/homepage/techstack.css */
+
+.techstack-section {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.techstack-title {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.techstack-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.techstack-category {
+  margin-bottom: 30px;
+}
+
+.techstack-category-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.techstack-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.techstack-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.techstack-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.techstack-name {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+  .techstack-title {
+    font-size: 24px;
+  }
+
+  .techstack-category-title {
+    font-size: 20px;
+  }
+
+  .techstack-logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .techstack-name {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .techstack-container {
+    grid-template-columns: 1fr; /* Single column layout for larger screens */
+  }
+
+  .techstack-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .techstack-items {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .techstack-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center categories horizontally */
+    gap: 0;
+  }
+
+  .techstack-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center category title and items horizontally */
+    width: 100%; /* Make sure it takes full width for proper centering */
+    margin-bottom: 0;
+  }
+
+  .techstack-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for items */
+    justify-items: center; /* Center items within grid cells */
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .techstack-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .techstack-category-title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .techstack-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .techstack-name {
+    font-size: 12px;
+  }
+}
