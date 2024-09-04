@@ -96,6 +96,7 @@
   }
 }
 
+/* Mobile Styles */
 @media (max-width: 480px) {
   .techstack-container {
     display: flex;
@@ -114,9 +115,9 @@
 
   .techstack-items {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns for items */
+    grid-template-columns: repeat(3, 1fr); /* Three columns for items */
     justify-items: center; /* Center items within grid cells */
-    gap: 30px;
+    gap: 20px; /* Adjust gap if needed */
     margin-top: 20px;
   }
 

@@ -23,6 +23,12 @@
     overflow: hidden; /* Hide overflow to maintain uniform size */
 }
 
+a {
+    color: inherit; /* Use color from parent */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border if any */
+}
+
 .project:hover .project-container {
     transform: translateY(-5px);
 }
