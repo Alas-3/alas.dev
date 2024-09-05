@@ -19,7 +19,7 @@ const INFO = {
 	homepage: {
 		title: "Ace Labador | Web Developer",
 		description:
-			"I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, React, Next.js, and Tailwind. With extensive expertise in developing visually appealing and highly functional web apps, I use Backend-as-a-Service (BaaS) platforms like Firebase/Supabase to build robust full-stack applications. I also have a background in sales, which enriches my user-centric approach in developing. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
+			"I am a full-stack developer with a strong foundation in HTML, CSS, JavaScript, React, Next.js, and Tailwind. With extensive expertise in developing visually appealing and highly functional web apps, I use Backend-as-a-Service (BaaS) platforms like Firebase/Supabase to build robust full-stack applications. I also have a background in sales, which enriches my user-centric approach in developing. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
 	},
 
 	about: {

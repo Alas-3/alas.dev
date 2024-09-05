@@ -21,6 +21,7 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
 import TechStack from "../components/homepage/techstack"; // Import new TechStack component
+import HighlightedText from "../components/common/HighlightedText"; // Import the new component
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -70,6 +71,10 @@ const Homepage = () => {
     borderRadius: stayLogo ? "50%" : "none",
     boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
   };
+  
+  // Keywords to highlight
+  const keywords = ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind", "Firebase", "Supabase", "Web Developer"];
+  const highlightColor = "#14b8a6"; // Define the color for highlighted text
 
   return (
     <React.Fragment>
@@ -91,12 +96,16 @@ const Homepage = () => {
           <div className="homepage-container">
             <div className="homepage-first-area">
               <div className="homepage-first-area-left-side">
-                <div className="title homepage-title">
-                  {INFO.homepage.title}
+              <div className="title homepage-title">
+                  {INFO.homepage.title }
                 </div>
 
                 <div className="subtitle homepage-subtitle">
-                  {INFO.homepage.description}
+                  <HighlightedText
+                    text={INFO.homepage.description}
+                    keywords={keywords}
+                    highlightColor={highlightColor}
+                  />
                 </div>
               </div>
             </div>

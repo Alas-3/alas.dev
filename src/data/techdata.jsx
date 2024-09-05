@@ -1,6 +1,5 @@
 import expressjsLogo from "../components/logos/skill-icons--expressjs-dark.svg";
 import firebaseLogo from "../components/logos/logos--firebase.svg";
-import vscodeLogo from "../components/logos/skill-icons--vscode-dark.svg";
 import tailwindcssLogo from "../components/logos/skill-icons--tailwindcss-dark.svg";
 import supabaseLogo from "../components/logos/skill-icons--supabase-dark.svg";
 import nodejsLogo from "../components/logos/skill-icons--nodejs-dark.svg";
@@ -16,6 +15,7 @@ import cssLogo from "../components/logos/vscode-icons--file-type-css.svg";
 import vercelLogo from "../components/logos/skill-icons--vercel-dark.svg";
 import lighthouseLogo from "../components/logos/logos--lighthouse.svg";
 import npmLogo from "../components/logos/skill-icons--npm-dark.svg";
+import idxLogo from "../components/logos/idx.svg";
 
 const techData = {
   frontend: [
@@ -28,20 +28,20 @@ const techData = {
     // Add more frontend techs here
   ],
   backend: [
-    { name: "Node.js", logo: nodejsLogo },
-    { name: "Express.js", logo: expressjsLogo },
     { name: "Firebase", logo: firebaseLogo }, 
     { name: "Supabase", logo: supabaseLogo },
     { name: "Appwrite", logo: appwriteLogo },
+    { name: "Node.js", logo: nodejsLogo },
+    { name: "Express.js", logo: expressjsLogo },
     { name: "Axios", logo: axiosLogo },
     // Add more backend techs here
   ],
   tools: [
     { name: "GitHub", logo: githubLogo },
-    { name: "Git", logo: gitLogo },
     { name: "npm", logo: npmLogo },
-    { name: "VS Code", logo: vscodeLogo },
     { name: "Vercel", logo: vercelLogo },
+    { name: "Git", logo: gitLogo },
+    { name: "Idx", logo: idxLogo },
     { name: "Lighthouse", logo: lighthouseLogo },
     // Add more tools here
   ],
