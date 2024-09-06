@@ -41,7 +41,7 @@ const techData = {
     { name: "npm", logo: npmLogo },
     { name: "Vercel", logo: vercelLogo },
     { name: "Git", logo: gitLogo },
-    { name: "Idx", logo: idxLogo },
+    { name: "IDX", logo: idxLogo },
     { name: "Lighthouse", logo: lighthouseLogo },
     // Add more tools here
   ],
