@@ -28,7 +28,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="https://media.licdn.com/dms/image/D4D0BAQHsM-oJ_0AVcQ/company-logo_100_100/0/1702416872427?e=1726099200&v=beta&t=ybYqBv0z4Sj398rCdT7YMNOHP95tNb63TbTfatSyxtk"
+								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3BHhskCCwnOZI_ZfbX6suvMUonVnUKwSm2w&s"
 								alt="wewhiten"
 								className="work-image"
 							/>
