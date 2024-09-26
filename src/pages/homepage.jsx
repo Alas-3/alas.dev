@@ -112,7 +112,7 @@ const Homepage = () => {
 
             <div className="homepage-socials">
               <a
-                href="/path/to/resume.pdf"
+                href="assets/Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="resume-button"
