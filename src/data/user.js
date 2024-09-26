@@ -19,7 +19,7 @@ const INFO = {
 	homepage: {
 		title: "Ace Labador | Web Developer",
 		description:
-			"I am a full-stack developer with a strong foundation in HTML, CSS, JavaScript, React, Next.js, and Tailwind. With extensive expertise in developing visually appealing and highly functional web apps, I use Backend-as-a-Service (BaaS) platforms like Firebase/Supabase to build robust full-stack applications. I also have a background in sales, which enriches my user-centric approach in developing. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
+			"I am a front-end engineer with 3+ years of experience in web development. I have a strong foundation in HTML, CSS, JavaScript, React, Next.js, and Tailwind. With extensive expertise in developing visually appealing and highly functional web apps, I use Backend-as-a-Service (BaaS) platforms like Firebase & Supabase to build robust full-stack applications. I also have a background in sales, which enriches my user-centric approach in developing. My career goal is to lead teams and work on large-scale projects, continually pushing the boundaries of innovation and quality in web development.",
 	},
 
 	about: {
@@ -38,7 +38,7 @@ const INFO = {
 		{
 			title: "E-Registrar",
 			description:
-				"A Queue Management System",
+				"A Full Stack Queue Management System for School Registrars built using ReactJS and Firebase",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", //USED DEVICON FOR ICONS
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg",
 			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
@@ -49,7 +49,7 @@ const INFO = {
 		{
 			title: "Himitsu",
 			description:
-				"A Private Anime Streaming App",
+				"A Full Stack Private Anime Streaming Web App built using NextJS and Supabase",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
 			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
@@ -58,9 +58,21 @@ const INFO = {
 		},
 
 		{
+			title: "Developing...",
+			description:
+				"A Website for an established jewelry business allowing clients to request personalized consultations.",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
+			linkText: "View Project",
+			link: "https://projecthimitsu.vercel.app/",
+		},
+
+
+		{
 			title: "StormSignal",
 			description:
-				"A Location-based Weather App with Typhoon alerts",
+				"A Location-based Weather Web App with real-time Typhoon alerts ang warnings from PAGASA",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
@@ -71,7 +83,7 @@ const INFO = {
 		{
 			title: "QR Code Generator",
 			description:
-				"A QR Code Generator App",
+				"A QR Code Generator Web Application built using NextJS and TailwindCSS",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
@@ -81,7 +93,7 @@ const INFO = {
 		{
 			title: "Weather Checker",
 			description:
-				"A Weather Checking App utilizing WeatherAPI",
+				"A Weather Checking Web App utilizing WeatherAPI",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
@@ -92,7 +104,7 @@ const INFO = {
 		{
 			title: "AniGuess",
 			description:
-				"An Anime-related Guessing Game utilizing Open Trivia API",
+				"A Web App for an anime-related guessing game utilizing Open Trivia API",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
@@ -102,7 +114,7 @@ const INFO = {
 		{
 			title: "UniFinder",
 			description:
-				"A University Finder App utilizng HipoLabs API",
+				"A University Finder Web App for select countries utilizng HipoLabs API",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
@@ -112,7 +124,7 @@ const INFO = {
 		{
 			title: "BAHA",
 			description:
-				"A Flood Awareness Website",
+				"A Full Stack Flood Awareness Website using HTML, CSS, JavaScript, and PHP",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
 			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",

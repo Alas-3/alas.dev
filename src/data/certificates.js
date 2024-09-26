@@ -38,7 +38,7 @@ const CERTIFICATES = [
         date: "August 2024",
         link: "https://www.credly.com/badges/b283dfb4-2290-41f3-b6e2-4ef81653edda/linked_in_profile",
         description: "Awarded for completing the IBM Front-End Development with React V2 Course",
-        logo: "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-512.png" // Add the logo URL here
+        logo: "https://images.credly.com/size/680x680/images/e747147a-9300-4795-8b38-704a133bed88/Coursera_20Front_20end_20Development_20with_20React_20V2.png" // Add the logo URL here
     },
     {
         title: "Intermediate Front-End Web Development",
@@ -46,7 +46,7 @@ const CERTIFICATES = [
         date: "August 2024",
         link: "https://www.credly.com/badges/c9c4d562-c68c-4338-b4a7-48de480a551e/linked_in_profile",
         description: "Awarded for completing the IBM Intermediate Front-End Web Development Course",
-        logo: "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-512.png" // Add the logo URL here
+        logo: "https://images.credly.com/size/680x680/images/1c2ba273-f276-42cb-bd5c-f90fa6e59357/image.png" // Add the logo URL here
     },
     {
         title: "Advanced React",
@@ -62,7 +62,7 @@ const CERTIFICATES = [
         date: "August 2024",
         link: "https://www.credly.com/badges/0dd414dc-780c-456d-8cff-0034c379fbf7/linked_in_profile",
         description: "Awarded for completing the IBM Git and Github Essentials Course",
-        logo: "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-512.png" // Add the logo URL here
+        logo: "https://images.credly.com/size/680x680/images/9a0255eb-a47d-4f3a-9611-243bfe3eb9e4/image.png" // Add the logo URL here
     },
     {
         title: "Cloud Native, DevOps, Agile, and NoSQL Essentials",
@@ -70,7 +70,15 @@ const CERTIFICATES = [
         date: "August 2024",
         link: "https://www.credly.com/badges/f84c989f-c90a-4e99-9b40-524db4291969/linked_in_profile",
         description: "Awarded for completing the IBM Get Started with Cloud Native, DevOps, Agile, and NoSQL Course",
-        logo: "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/ibm-512.png" // Add the logo URL here
+        logo: "https://images.credly.com/size/680x680/images/0180c9c4-1723-4e5d-b38e-c439cd445130/image.png" // Add the logo URL here
+    },
+    {
+        title: "Software Engineering Essentials",
+        issuer: "Coursera",
+        date: "August 2024",
+        link: "https://www.credly.com/badges/fb141250-8fff-444e-90aa-82771c8ff56b/public_url",
+        description: "Awarded for completing the IBM Introduction to Software Engineering",
+        logo: "https://images.credly.com/size/680x680/images/1b67aaf9-670d-4c92-8d51-7ac1190f0a42/image.png" // Add the logo URL here
     },
     {
         title: "Introduction to Front-End Development",

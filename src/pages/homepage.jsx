@@ -111,6 +111,17 @@ const Homepage = () => {
             </div>
 
             <div className="homepage-socials">
+              <a
+                href="/path/to/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="resume-button"
+              >
+                My Resume
+              </a>
+
+              <span className="social-separator">|</span>
+
               <a href={INFO.socials.credly} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon
                   icon={faCertificate}

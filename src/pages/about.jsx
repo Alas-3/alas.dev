@@ -31,7 +31,7 @@ const About = () => {
         />
         <link
           rel="preload"
-          href="https://github.com/Alas-3/Alas-3/blob/main/personal_logo_withoutBG.png?raw=true"
+          href="../../public/images/personal_logo.png"
           as="image"
         />
       </Helmet>
@@ -60,12 +60,12 @@ const About = () => {
               <div className="about-left-side">
                 <div className="about-image-container">
                   <div className="about-image-wrapper">
-                    <img
-                      src="https://github.com/Alas-3/Alas-3/blob/main/personal_logo_withoutBG.png?raw=true"
-                      alt="about"
-                      className="about-image"
-                      loading="lazy"
-                    />
+                  <img
+                    src="/images/personal_logo.png"
+                    alt="about"
+                    className="about-image"
+                    loading="lazy"
+                  />
                   </div>
                 </div>
 
