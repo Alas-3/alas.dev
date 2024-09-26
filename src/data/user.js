@@ -65,7 +65,7 @@ const INFO = {
 			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
 			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
 			linkText: "View Project",
-			link: "https://projecthimitsu.vercel.app/",
+			link: "",
 		},
 
 
