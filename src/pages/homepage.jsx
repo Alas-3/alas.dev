@@ -73,7 +73,7 @@ const Homepage = () => {
   };
   
   // Keywords to highlight
-  const keywords = ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind", "Firebase", "Supabase", "Web Developer"];
+  const keywords = ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind", "Firebase", "Supabase", "Web", "Developer"];
   const highlightColor = "#14b8a6"; // Define the color for highlighted text
 
   return (
@@ -97,7 +97,11 @@ const Homepage = () => {
             <div className="homepage-first-area">
               <div className="homepage-first-area-left-side">
               <div className="title homepage-title">
-                  {INFO.homepage.title }
+                  <HighlightedText
+                    text={INFO.homepage.title}
+                    keywords={keywords}
+                    highlightColor={highlightColor}
+                  />
                 </div>
 
                 <div className="subtitle homepage-subtitle">
@@ -117,7 +121,7 @@ const Homepage = () => {
                 rel="noreferrer"
                 className="resume-button"
               >
-                My Resume
+                Resume
               </a>
 
               <span className="social-separator">|</span>
