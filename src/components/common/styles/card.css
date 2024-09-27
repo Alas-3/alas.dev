@@ -3,7 +3,7 @@
 .card-home {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	outline: 1px solid #f4f4f5;
+	/*outline: 1px solid #f4f4f5;*/
 	margin-bottom: 1rem;
 }
 

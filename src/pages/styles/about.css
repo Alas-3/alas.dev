@@ -125,6 +125,7 @@
     .about-image-container {
         width: 80%;
         margin: 0 auto; /* Center the image */
+        padding-top: 1rem;
     }
 }
 
