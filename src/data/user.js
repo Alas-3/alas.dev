@@ -58,12 +58,11 @@ const INFO = {
 		},
 
 		{
-			title: "Developing...",
+			title: "DRA Jewelry",
 			description:
 				"A Website for an established jewelry business allowing clients to request personalized consultations.",
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
-			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
 			linkText: "View Project",
 			link: "",
 		},
