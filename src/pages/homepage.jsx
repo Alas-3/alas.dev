@@ -84,6 +84,8 @@ const Homepage = () => {
 		"Supabase",
 		"Web",
 		"Developer",
+		"front-end",
+		"engineer",
 	];
 	const highlightColor = "#14b8a6"; // Define the color for highlighted text
 
