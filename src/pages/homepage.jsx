@@ -92,7 +92,7 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{INFO.main.title}</title>
+				<title>{'${INFO.main.title} | Porfolio'}</title>
 				<meta name="description" content={currentSEO.description} />
 				<link rel="canonical" href="https://alas-dev.vercel.app" />
 				<meta

@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "Alas.dev",
+		title: "Alas",
 		name: "Ace Labador",
 		email: "alas.dev@outlook.com",
 		logo: "../logo.png",
