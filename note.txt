@@ -1,0 +1,2 @@
+use = node generate-sitemap.js
+when changes to a page has been made
