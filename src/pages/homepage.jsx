@@ -92,12 +92,50 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{'${INFO.main.title} | Porfolio'}</title>
-				<meta name="description" content={currentSEO.description} />
-				<link rel="canonical" href="https://alas-dev.vercel.app" />
+				<title>{"${INFO.main.title} | Porfolio"}</title>
+				<meta
+					name="description"
+					content="Hey I'm Alas, a front-end engineer specializing in React & Next.js. View my portfolio to know more."
+				/>
 				<meta
 					name="keywords"
-					content={currentSEO.keywords.join(", ")}
+					content="Alas, Alas Dev, alas dev, alas-dev, alas.dev, Ace, Ace L, Ace Labador, Christopher Ace Labador, alas labador, alas portfolio, ace portfolio, ace labador portfolio, portfolio of ace labador, developer, front-end engineer, React developer, Next.js, web developer portfolio, JavaScript, modern web development"
+				/>
+				<meta name="author" content="Alas" />
+				<link rel="canonical" href="https://alas-dev.vercel.app" />
+
+				{/* Open Graph Tags for Social Media Sharing */}
+				<meta property="og:title" content="Alas' Portfolio" />
+				<meta
+					property="og:description"
+					content="Showcasing projects and skills of Alas, a front-end engineer specializing in React & Next.js."
+				/>
+				<meta
+					property="og:image"
+					content="%PUBLIC_URL%/images/personal_logo.png"
+				/>
+				<meta property="og:url" content="https://alas-dev.vercel.app" />
+				<meta property="og:type" content="website" />
+
+				{/* Twitter Card for Sharing */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="Alas' Portfolio" />
+				<meta
+					name="twitter:description"
+					content="Explore the portfolio of Alas, a front-end engineer specializing in React & Next.js."
+				/>
+				<meta
+					name="twitter:image"
+					content="%PUBLIC_URL%/images/personal_logo.png"
+				/>
+
+				{/* Robots */}
+				<meta name="robots" content="index, follow" />
+
+				{/* Google Site Verification */}
+				<meta
+					name="google-site-verification"
+					content="OBwTnzCJhtTRTGjraMYwzcyuh6-Q9XyE-bb0rxaAzOw"
 				/>
 			</Helmet>
 
