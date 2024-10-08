@@ -15,11 +15,11 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="https://t3.ftcdn.net/jpg/03/72/27/48/360_F_372274822_u3edzJNGguqI4gVBdw9CozfdoaqatWAd.jpg"
+								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPlxGEa_lx4b8-5QFW2a8vwTxXwLFkCjN2xQ&s"
 								alt="Freelance"
 								className="work-image"
 							/>
-							<div className="work-title">Freelance</div>
+							<div className="work-title">D.R.A Jewelry</div>
 							<div className="work-subtitle">
 								Web Developer
 							</div>
