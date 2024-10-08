@@ -4,7 +4,7 @@
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
 		"name": "Alas",
-		"email": "alas.dev@outlook.com",
+		"email": "ac3labador@gmail.com",
 		"url": "https://github.com/Alas-3"
 	},
 	"license": "MIT",
@@ -26,12 +26,13 @@
 		"react-helmet": "^6.1.0",
 		"react-router-dom": "^6.11.1",
 		"react-scripts": "5.0.1",
+		"sitemap": "^8.0.0",
 		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "react-scripts build",
+		"build": "react-scripts build && node generate-sitemap.js",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
