@@ -94,6 +94,7 @@ const Homepage = () => {
 			<Helmet>
 				<title>{INFO.main.title}</title>
 				<meta name="description" content={currentSEO.description} />
+				<link rel="canonical" href="https://alas-dev.vercel.app" />
 				<meta
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
