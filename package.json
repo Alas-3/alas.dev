@@ -1,7 +1,7 @@
 {
-	"name": "reactfolio",
+	"name": "alasportfolio",
 	"version": "1.1.0",
-	"description": "Personal portfolio template built using Reactjs",
+	"description": "Personal portfolio website built using Reactjs",
 	"author": {
 		"name": "Alas",
 		"email": "ac3labador@gmail.com",

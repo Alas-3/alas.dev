@@ -99,9 +99,10 @@ const Homepage = () => {
 				/>
 				<meta
 					name="keywords"
-					content="Alas, Alas Dev, alas dev, alas-dev, alas.dev, Ace, Ace L, Ace Labador, Christopher Ace Labador, alas labador, alas portfolio, ace portfolio, ace labador portfolio, portfolio of ace labador, developer, front-end engineer, React developer, Next.js, web developer portfolio, JavaScript, modern web development"
+					content="Alas Dev, Ace Labador, Christopher Ace Labador, Ace Labador portfolio, Ace Labador front-end developer, front-end engineer, React developer, Next.js expert, JavaScript developer, web developer, web development, modern web development, responsive design, UI/UX developer, Firebase developer, Supabase expert, full-stack developer, React portfolio, Next.js portfolio, Ace Labador projects, Ace Labador resume, software engineer, web applications, JavaScript engineer, Alas personal website, Ace Labador front-end portfolio, Ace Labador developer, web design, web performance optimization, mobile-responsive web design, SEO expert, Next.js SEO, Ace Labador coding projects, React coding examples, interactive web applications, progressive web apps, Ace Labador GitHub, Ace Labador LinkedIn"
 				/>
-				<meta name="author" content="Alas" />
+
+				<meta name="author" content="Ace Labador" />
 				<link rel="canonical" href="https://alas-dev.vercel.app" />
 
 				{/* Open Graph Tags for Social Media Sharing */}
