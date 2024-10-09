@@ -24,7 +24,6 @@ import TechStack from "../components/homepage/techstack"; // Import new TechStac
 import HighlightedText from "../components/common/HighlightedText"; // Import the new component
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
 
 import "./styles/homepage.css";
 
@@ -60,8 +59,6 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const currentSEO = SEO.find((item) => item.page === "home");
-
 	const logoStyle = {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
@@ -92,7 +89,7 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+				<link rel="icon" href="/favicon.ico" />
 				<title>{`${INFO.main.title} | Porfolio`}</title>
 				<meta
 					name="description"
@@ -112,10 +109,7 @@ const Homepage = () => {
 					property="og:description"
 					content="Showcasing projects and skills of Alas, a front-end engineer specializing in React & Next.js."
 				/>
-				<meta
-					property="og:image"
-					content="%PUBLIC_URL%/favicon.ico"
-				/>
+				<meta property="og:image" content="/favicon.ico" />
 				<meta property="og:url" content="https://alas-dev.vercel.app" />
 				<meta property="og:type" content="website" />
 
@@ -126,10 +120,7 @@ const Homepage = () => {
 					name="twitter:description"
 					content="Explore the portfolio of Alas, a front-end engineer specializing in React & Next.js."
 				/>
-				<meta
-					name="twitter:image"
-					content="%PUBLIC_URL%/favicon.ico"
-				/>
+				<meta name="twitter:image" content="/favicon.ico" />
 
 				{/* Robots */}
 				<meta name="robots" content="index, follow" />
@@ -139,6 +130,28 @@ const Homepage = () => {
 					name="google-site-verification"
 					content="OBwTnzCJhtTRTGjraMYwzcyuh6-Q9XyE-bb0rxaAzOw"
 				/>
+
+				<script type="application/ld+json">
+					{`
+							{
+							"@context": "http://schema.org",
+							"@type": "Person",
+							"name": "Christopher Ace Labador",
+							"jobTitle": [
+								"Front-End Developer",
+								"Front-End Engineer",
+								"Web Developer",
+								"React Developer",
+								"Next.js Developer"
+							  ],
+							"url": "https://alas-dev.vercel.app",
+							"sameAs": [
+								"https://www.linkedin.com/in/alasdev",
+								"https://github.com/Alas-3"
+							]
+							}
+						`}
+				</script>
 			</Helmet>
 
 			<div className="page-content">
