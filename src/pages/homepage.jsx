@@ -131,6 +131,7 @@ const Homepage = () => {
 					content="OBwTnzCJhtTRTGjraMYwzcyuh6-Q9XyE-bb0rxaAzOw"
 				/>
 
+				{/* JSON-LD for structured data */}
 				<script type="application/ld+json">
 					{`
 							{

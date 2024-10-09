@@ -7,7 +7,6 @@ import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
 
 import "./styles/projects.css";
 
@@ -16,17 +15,78 @@ const Projects = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "projects");
-
 	return (
 		<React.Fragment>
 			<Helmet>
+				<link rel="icon" href="/favicon.ico" />
 				<title>{`${INFO.main.title} | Projects`}</title>
-				<meta name="description" content={currentSEO.description} />
+				<meta
+					name="description"
+					content="Explore the projects of Ace Labador, a front-end engineer specializing in React & Next.js. Discover innovative web applications and contributions."
+				/>
 				<meta
 					name="keywords"
-					content={currentSEO.keywords.join(", ")}
+					content="Ace Labador projects, React projects, Next.js projects, front-end engineer projects, web development projects, JavaScript applications, web applications, portfolio projects, coding examples"
 				/>
+				<meta name="author" content="Ace Labador" />
+				<link
+					rel="canonical"
+					href="https://alas-dev.vercel.app/projects"
+				/>
+
+				{/* Open Graph Tags for Social Media Sharing */}
+				<meta property="og:title" content="Ace Labador's Projects" />
+				<meta
+					property="og:description"
+					content="Discover the projects of Ace Labador, a front-end engineer specializing in React & Next.js."
+				/>
+				<meta property="og:image" content="/favicon.ico" />
+				<meta
+					property="og:url"
+					content="https://alas-dev.vercel.app/projects"
+				/>
+				<meta property="og:type" content="website" />
+
+				{/* Twitter Card for Sharing */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="Ace Labador's Projects" />
+				<meta
+					name="twitter:description"
+					content="Explore the innovative projects of Ace Labador, a front-end engineer specializing in React & Next.js."
+				/>
+				<meta name="twitter:image" content="/favicon.ico" />
+
+				{/* Robots */}
+				<meta name="robots" content="index, follow" />
+
+				{/* Google Site Verification */}
+				<meta
+					name="google-site-verification"
+					content="OBwTnzCJhtTRTGjraMYwzcyuh6-Q9XyE-bb0rxaAzOw"
+				/>
+
+				{/* JSON-LD for structured data */}
+				<script type="application/ld+json">
+					{`
+            {
+                "@context": "http://schema.org",
+                "@type": "Person",
+                "name": "Christopher Ace Labador",
+                "jobTitle": [
+					"Front-End Developer",
+					"Front-End Engineer",
+					"Web Developer",
+					"React Developer",
+					"Next.js Developer"
+				  ],
+                "url": "https://alas-dev.vercel.app/projects",
+                "sameAs": [
+                    "https://www.linkedin.com/in/alasdev",
+                    "https://github.com/Alas-3"
+                ]
+            }
+        `}
+				</script>
 			</Helmet>
 
 			<div className="page-content">
@@ -38,20 +98,31 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-container">
-						<div id="projects-title1" className="title projects-title">
+						<div
+							id="projects-title1"
+							className="title projects-title"
+						>
 							Things I’ve made trying to put my dent in the
 							universe.
 						</div>
 
 						<div className="subtitle projects-subtitle">
-						I've worked on a diverse range of projects over the years, and I'm proud of the strides
-						I've made in my development journey. My primary tech stack revolves around React, Next.js, and Tailwind CSS,
-						which I utilize to develop intuitive and responsive front-end web apps. On the backend, 
-						I leverage BaaS platforms like Firebase, Supabase, and Appwrite to create seamless full-stack web applications that scale effectively.
-						Many of these projects are open-source and available for others to explore. 
-						If you're interested in any of the projects I've worked on, please feel free to check them out and suggest any 
-						improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new 
-						ideas and feedback.
+							I've worked on a diverse range of projects over the
+							years, and I'm proud of the strides I've made in my
+							development journey. My primary tech stack revolves
+							around React, Next.js, and Tailwind CSS, which I
+							utilize to develop intuitive and responsive
+							front-end web apps. On the backend, I leverage BaaS
+							platforms like Firebase, Supabase, and Appwrite to
+							create seamless full-stack web applications that
+							scale effectively. Many of these projects are
+							open-source and available for others to explore. If
+							you're interested in any of the projects I've worked
+							on, please feel free to check them out and suggest
+							any improvements or enhancements you might have in
+							mind. Collaborating with others is a great way to
+							learn and grow, and I'm always open to new ideas and
+							feedback.
 						</div>
 
 						<div className="projects-list">
