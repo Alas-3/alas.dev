@@ -96,7 +96,7 @@ const Homepage = () => {
 				<title>{`${INFO.main.title} | Porfolio`}</title>
 				<meta
 					name="description"
-					content="Hey I'm Alas, a front-end engineer specializing in React & Next.js. View my portfolio to know more."
+					content="Ace Labador: Front-End Engineer specializing in React & Next.js. Explore my portfolio showcasing web development skills, certificates, works & projects."
 				/>
 				<meta
 					name="keywords"
