@@ -92,7 +92,7 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{"${INFO.main.title} | Porfolio"}</title>
+				<title>{`${INFO.main.title} | Porfolio`}</title>
 				<meta
 					name="description"
 					content="Hey I'm Alas, a front-end engineer specializing in React & Next.js. View my portfolio to know more."
