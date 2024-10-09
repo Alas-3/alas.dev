@@ -113,7 +113,7 @@ const Homepage = () => {
 				/>
 				<meta
 					property="og:image"
-					content="%PUBLIC_URL%/images/personal_logo.png"
+					content="%PUBLIC_URL%/favicon.ico"
 				/>
 				<meta property="og:url" content="https://alas-dev.vercel.app" />
 				<meta property="og:type" content="website" />
@@ -127,7 +127,7 @@ const Homepage = () => {
 				/>
 				<meta
 					name="twitter:image"
-					content="%PUBLIC_URL%/images/personal_logo.png"
+					content="%PUBLIC_URL%/favicon.ico"
 				/>
 
 				{/* Robots */}
