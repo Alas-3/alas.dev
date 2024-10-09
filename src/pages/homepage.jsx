@@ -92,6 +92,7 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
+				<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
 				<title>{`${INFO.main.title} | Porfolio`}</title>
 				<meta
 					name="description"
