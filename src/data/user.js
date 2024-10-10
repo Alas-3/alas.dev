@@ -25,7 +25,7 @@ const INFO = {
 	about: {
 		title: "I blend design and code to craft the future of web experiences.",
 		description:
-			"Greetings! I'm Ace, from the ever-sunny or always-raining Philippines. Picture a fusion of design savvy and coding wizardry – that's me, crafting the digital future one pixel at a time. Ever the innovator, I blend creativity and code like a master chef mixes ingredients, concocting web experiences that leave users craving more. With a design sense sharper than a samurai sword and coding skills smoother than jazz on a summer night, I'm here to elevate your digital game. Let's join forces and turn your digital dreams into reality. After all, why settle for ordinary when you can have extraordinary?",
+			"Greetings! I'm Ace Labador, from the ever-sunny or always-raining Philippines. Picture a fusion of design savvy and coding wizardry – that's me, crafting the digital future one pixel at a time. Ever the innovator, I blend creativity and code like a master chef mixes ingredients, concocting web experiences that leave users craving more. With a design sense sharper than a samurai sword and coding skills smoother than jazz on a summer night, I'm here to elevate your digital game. Let's join forces and turn your digital dreams into reality. After all, why settle for ordinary when you can have extraordinary?",
 	},
 
 	articles: {

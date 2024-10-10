@@ -21,7 +21,7 @@ const About = () => {
 		<React.Fragment>
 			<Helmet>
 				<link rel="icon" href="/favicon.ico" />
-				<title>{`${INFO.main.title} | About`}</title>
+				<title>Ace Labador | About</title>
 				<meta
 					name="description"
 					content="Learn more about Ace Labador, a front-end engineer specializing in React & Next.js. Discover my journey, skills, and passion for web development."

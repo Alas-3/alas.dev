@@ -93,7 +93,7 @@ const Homepage = () => {
 				<title>Ace Labador | Portfolio</title>
 				<meta
 					name="description"
-					content="Ace Labador: Front-End Engineer specializing in React & Next.js. Explore my portfolio showcasing web development skills, certificates, works & projects."
+					content="Ace Labador: A Front-End Engineer specializing in React and Next.js. Explore my portfolio showcasing web development skills, certificates, works and projects."
 				/>
 				<meta
 					name="keywords"

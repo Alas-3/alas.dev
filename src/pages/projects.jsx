@@ -19,7 +19,7 @@ const Projects = () => {
 		<React.Fragment>
 			<Helmet>
 				<link rel="icon" href="/favicon.ico" />
-				<title>{`${INFO.main.title} | Projects`}</title>
+				<title>Ace Labador | Projects</title>
 				<meta
 					name="description"
 					content="Explore the projects of Ace Labador, a front-end engineer specializing in React & Next.js. Discover innovative web applications and contributions."
