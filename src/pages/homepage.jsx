@@ -90,7 +90,7 @@ const Homepage = () => {
 		<React.Fragment>
 			<Helmet>
 				<link rel="icon" href="/favicon.ico" />
-				<title>Ace Labador | Porfolio</title>
+				<title>Ace Labador | Portfolio</title>
 				<meta
 					name="description"
 					content="Ace Labador: Front-End Engineer specializing in React & Next.js. Explore my portfolio showcasing web development skills, certificates, works & projects."
