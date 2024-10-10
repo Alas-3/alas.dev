@@ -65,27 +65,70 @@
 		<!-- JSON-LD for structured data -->
 		<script type="application/ld+json">
 			{
-				"@context": "http://schema.org",
-				"@type": "Person",
-				"name": "Christopher Ace Labador",
-				"jobTitle": [
-					"Front-End Developer",
-					"Front-End Engineer",
-					"Web Developer",
-					"React Developer",
-					"Next.js Developer"
-				],
-				"address": {
-					"@type": "PostalAddress",
-					"addressLocality": "Meycauayan",
-					"addressRegion": "Bulacan",
-					"addressCountry": "PH"
+				"@context": "https://schema.org",
+				"@type": "ProfilePage",
+				"mainEntity": {
+					"@type": "Person",
+					"name": "Christopher Ace Labador",
+					"alternateName": [
+						"Alas",
+						"Alas.dev",
+						"Alas Labador",
+						"Ace Labador Portfolio"
+					],
+					"jobTitle": [
+						"Front-End Developer",
+						"Front-End Engineer",
+						"Web Developer",
+						"React Developer",
+						"Next.js Developer"
+					],
+					"address": {
+						"@type": "PostalAddress",
+						"addressLocality": "Meycauayan",
+						"addressRegion": "Bulacan",
+						"addressCountry": "PH"
+					},
+					"url": "https://alas-dev.vercel.app",
+					"description": "Front-End Engineer specializing in React & Next.js",
+					"sameAs": [
+						"https://www.linkedin.com/in/alasdev",
+						"https://github.com/Alas-3"
+					]
 				},
-				"url": "https://alas-dev.vercel.app",
-				"sameAs": [
-					"https://www.linkedin.com/in/alasdev",
-					"https://github.com/Alas-3"
-				]
+				"localBusiness": {
+					"@type": "LocalBusiness",
+					"name": "Alas.dev",
+					"image": "https://alas-dev.vercel.app/logo.png",
+					"address": {
+						"@type": "PostalAddress",
+						"addressLocality": "Meycauayan",
+						"addressRegion": "Bulacan",
+						"postalCode": "3020",
+						"addressCountry": "PH"
+					},
+					"url": "https://alas-dev.vercel.app",
+					"description": "Web developer offering front-end development services specializing in React and Next.js."
+				},
+				"organization": {
+					"@type": "Organization",
+					"name": "Alas.dev",
+					"url": "https://alas-dev.vercel.app",
+					"sameAs": [
+						"https://www.linkedin.com/in/alasdev",
+						"https://github.com/Alas-3"
+					],
+					"logo": "https://alas-dev.vercel.app/logo.png",
+					"description": "Alas.dev is a freelance web developer dedicated to providing high-quality web development solutions.",
+					"email": "alas.dev@outlook.com",
+					"address": {
+						"@type": "PostalAddress",
+						"addressLocality": "Meycauayan",
+						"addressRegion": "Bulacan",
+						"postalCode": "3020",
+						"addressCountry": "PH"
+					}
+				}
 			}
 		</script>
 	</head>

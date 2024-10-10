@@ -8,7 +8,6 @@ import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 
-
 import CERTIFICATES from "../data/certificates";
 
 import "./styles/about.css";
@@ -17,8 +16,6 @@ const About = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-
-
 
 	return (
 		<React.Fragment>
@@ -70,27 +67,12 @@ const About = () => {
 					content="OBwTnzCJhtTRTGjraMYwzcyuh6-Q9XyE-bb0rxaAzOw"
 				/>
 
-				{/* JSON-LD for structured data */}
-				<script type="application/ld+json">
-					{`
-            {
-                "@context": "http://schema.org",
-                "@type": "Person",
-                "name": "Christopher Ace Labador",
-                "description": "Front-End Engineer specializing in React & Next.js.",
-                "url": "https://alas-dev.vercel.app/about",
-                "sameAs": [
-                    "https://www.linkedin.com/in/alasdev",
-                    "https://github.com/Alas-3"
-                ]
-            }
-        `}
-				</script>
 				<link
 					rel="preload"
 					href="/images/personal_logo.png" // Update the path if needed
 					as="image"
 				/>
+				{/* JSON-LD for structured data */}
 			</Helmet>
 
 			<div className="page-content">

@@ -131,34 +131,7 @@ const Homepage = () => {
 					content="OBwTnzCJhtTRTGjraMYwzcyuh6-Q9XyE-bb0rxaAzOw"
 				/>
 
-				{/* JSON-LD for structured data */}
-				<script type="application/ld+json">
-					{`
-							{
-							"@context": "http://schema.org",
-							"@type": "Person",
-							"name": "Christopher Ace Labador",
-							"jobTitle": [
-								"Front-End Developer",
-								"Front-End Engineer",
-								"Web Developer",
-								"React Developer",
-								"Next.js Developer"
-							  ],
-							"address": {
-								"@type": "PostalAddress",
-								"addressLocality": "Meycauayan",
-								"addressRegion": "Bulacan",
-								"addressCountry": "PH"
-							  },
-							"url": "https://alas-dev.vercel.app",
-							"sameAs": [
-								"https://www.linkedin.com/in/alasdev",
-								"https://github.com/Alas-3"
-							]
-							}
-						`}
-				</script>
+				{/* JSON-LD for structured data (REMOVED) */}
 			</Helmet>
 
 			<div className="page-content">

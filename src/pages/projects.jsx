@@ -65,28 +65,7 @@ const Projects = () => {
 					content="OBwTnzCJhtTRTGjraMYwzcyuh6-Q9XyE-bb0rxaAzOw"
 				/>
 
-				{/* JSON-LD for structured data */}
-				<script type="application/ld+json">
-					{`
-            {
-                "@context": "http://schema.org",
-                "@type": "Person",
-                "name": "Christopher Ace Labador",
-                "jobTitle": [
-					"Front-End Developer",
-					"Front-End Engineer",
-					"Web Developer",
-					"React Developer",
-					"Next.js Developer"
-				  ],
-                "url": "https://alas-dev.vercel.app/projects",
-                "sameAs": [
-                    "https://www.linkedin.com/in/alasdev",
-                    "https://github.com/Alas-3"
-                ]
-            }
-        `}
-				</script>
+				{/* JSON-LD for structured data (REMOVED) */}
 			</Helmet>
 
 			<div className="page-content">
