@@ -90,7 +90,7 @@ const Homepage = () => {
 		<React.Fragment>
 			<Helmet>
 				<link rel="icon" href="/favicon.ico" />
-				<title>{`${INFO.main.title} | Porfolio`}</title>
+				<title>Ace Labador | Porfolio</title>
 				<meta
 					name="description"
 					content="Ace Labador: Front-End Engineer specializing in React & Next.js. Explore my portfolio showcasing web development skills, certificates, works & projects."
@@ -109,7 +109,7 @@ const Homepage = () => {
 					property="og:description"
 					content="Showcasing projects and skills of Alas, a front-end engineer specializing in React & Next.js."
 				/>
-				<meta property="og:image" content="/favicon.ico" />
+				<meta property="og:image" content="images/webprofile.png" />
 				<meta property="og:url" content="https://alas-dev.vercel.app" />
 				<meta property="og:type" content="website" />
 
@@ -120,7 +120,7 @@ const Homepage = () => {
 					name="twitter:description"
 					content="Explore the portfolio of Alas, a front-end engineer specializing in React & Next.js."
 				/>
-				<meta name="twitter:image" content="/favicon.ico" />
+				<meta name="twitter:image" content="/images/webprofile.png" />
 
 				{/* Robots */}
 				<meta name="robots" content="index, follow" />
