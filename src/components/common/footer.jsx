@@ -9,7 +9,7 @@ const Footer = () => {
 				<div className="footer-column about-us">
 					<h3>About Alas.dev</h3>
 					<p>
-						A Front-End Engineer specializing in React and Next.js.
+						Christopher Ace Labador: A Front-End Engineer specializing in React and Next.js.
 						Explore my portfolio showcasing web development skills,
 						certificates, works and projects.
 					</p>
