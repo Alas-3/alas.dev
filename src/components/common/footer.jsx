@@ -9,9 +9,9 @@ const Footer = () => {
 				<div className="footer-column about-us">
 					<h3>About Alas.dev</h3>
 					<p>
-						I'm a web developer based in Meycauayan, specializing in
-						building custom web applications. I focus on creating
-						user-friendly solutions that cater to your unique needs.
+						A Front-End Engineer specializing in React and Next.js.
+						Explore my portfolio showcasing web development skills,
+						certificates, works and projects.
 					</p>
 				</div>
 

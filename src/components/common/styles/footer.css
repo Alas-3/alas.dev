@@ -81,6 +81,13 @@
 		grid-row: 1; /* Positioning in first row */
 	}
 
+	.footer-column.about-us p {
+		text-align: justify;
+		margin: 0; /* Adjust as needed */
+		padding: 0; /* Adjust as needed */
+	}
+	
+
 	.quick-links {
 		grid-column: 2; /* Positioning in second column */
 		grid-row: 1; /* Positioning in first row */
