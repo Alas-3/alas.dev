@@ -1,63 +1,184 @@
-@import "../../../data/styles.css";
-
+/* Footer Styles */
 .footer {
-	
-	padding-top: 25px;
-	/* margin-top: 50px; */
-	padding-bottom: 25px;
-	align-items: center;
+	background-color: white; /* Light background */
+	color: #333; /* Dark text */
+	padding: 15px 0; /* Reduced vertical padding */
 }
 
-.footer-links,
-.footer-credits {
-	flex-basis: 50%;
-}
-
-.footer-links {
-	margin-left: -40px;
-}
-
-.footer-nav-link-list {
+.footer-container {
 	display: flex;
-	list-style: none;
 	justify-content: space-between;
-	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	gap: 20px;
 }
 
-.footer-nav-link-item {
-	font-weight: bold;
-	font-size: 80%;
+/* Quick Links List Style */
+.footer-nav-link-list {
+	list-style: none; /* Remove default list bullets */
+	padding: 0; /* Remove default padding */
+	margin: 0; /* Remove default margin */
+}
+
+/* Set quick links to black */
+.footer-nav-link-list li a {
+	color: black; /* Change link color to black */
+	text-decoration: none; /* Remove underline */
+}
+
+.footer-nav-link-list li {
+	list-style-type: none;
 }
 
 .footer-nav-link-list a {
-	text-decoration: none;
-	color: var(--secondary-color);
+	color: #000; /* Default color */
+	transition: color 0.3s ease; /* Smooth transition for text color */
 }
 
 .footer-nav-link-list a:hover {
-	color: var(--link-color);
+	color: #14b8a6; /* Color on hover */
 }
 
-.footer-credits-text {
-	justify-content: flex-end;
-	color: var(--tertiary-color);
-	font-size: 14px;
-	text-align: center;
+.footer-social-icons a {
+	display: inline-block;
+	margin-right: 10px; /* Space between icons */
+	transition: color 0.3s ease; /* Smooth transition for icon color */
 }
 
-@media (max-width: 600px) {
-	.footer {
-		flex-direction: column;
-		
+.footer-social-icons a .social-icon {
+	color: #14b8a6; /* Default color for icons */
+	transition: fill 0.3s ease; /* Smooth transition for icon fill color */
+}
+
+/* Darken color on hover for icons */
+.footer-social-icons a:hover .social-icon {
+	color: #000; /* Darkened color on hover */
+}
+
+.footer-column p {
+    font-size: 0.875rem; /* Smaller text size for the paragraph */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+	.footer-container {
+		display: grid;
+		grid-template-columns: repeat(
+			2,
+			1fr
+		); /* Two columns for About and Quick Links */
+		grid-template-rows: auto 1fr; /* Stack rows automatically */
+		gap: 15px; /* Space between grid items */
 	}
 
-	.footer-links {
-		display: flex;
-		width: 100%;
-		justify-content: center;
+	.footer-column p {
+        font-size: 0.65rem; /* Smaller text size for mobile */
+    }
+
+	.about-us {
+		grid-column: 1; /* Positioning in first column */
+		grid-row: 1; /* Positioning in first row */
 	}
 
-	.footer-nav-link-list {
-		width: 100%;
+	.quick-links {
+		grid-column: 2; /* Positioning in second column */
+		grid-row: 1; /* Positioning in first row */
+		border-left: 1px solid #ddd; /* Subtle line on the left */
+		padding-left: 15px; /* Space from the line */
+	}
+
+	.connect-us {
+		grid-column: 1 / -1; /* Span across both columns */
+		grid-row: 2; /* Positioning in the second row */
+		text-align: center; /* Center content */
+	}
+
+	.footer-social-icons {
+		display: flex; /* Use flexbox for alignment */
+		justify-content: center; /* Center icons horizontally */
+		gap: 15px; /* Space between icons */
+		margin-top: 10px; /* Space above icons */
+	}
+
+	.footer-social-icons img {
+		width: 24px; /* Set width for icons */
+		height: 24px; /* Set height for icons */
+	}
+
+	.footer-social-icons a {
+		color: #14b8a6; /* Set the default icon color */
+		transition: color 0.3s ease; /* Add a transition effect for color change */
+	}
+
+	.footer-social-icons a:hover {
+		color: darken(
+			#14b8a6,
+			100%
+		); /* Change the color on hover; adjust the value as needed */
+	}
+
+	.footer-nav-link-list li a:hover {
+		color: #14b8a6; /* Change color on hover */
+		text-decoration: underline; /* Optional: add underline on hover for emphasis */
+	}
+
+	.footer-credits {
+		grid-column: 1 / -1; /* Span across both columns */
+		grid-row: 3; /* Positioning in the third row */
+		text-align: center; /* Center content */
+		border-top: 1px solid #ddd; /* Line above credits */
+		padding-top: 10px;
+		margin-top: 10px;
+		font-size: 0.8rem;
+		color: #999;
+	}
+
+	/* Ensure full width for columns */
+	.footer-column {
+		width: 100%; /* Full width for mobile */
+		text-align: center; /* Left alignment for titles and content */
+	}
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+	.footer-container {
+		display: flex; /* Maintain flex for desktop layout */
+		flex-direction: row; /* Align items in a single row */
+		justify-content: space-between; /* Space between columns */
+	}
+
+	.footer-column {
+		flex: 1; /* Each column takes equal width */
+		text-align: center; /* Center align text in each column */
+		position: relative; /* Position relative for pseudo-element */
+	}
+
+	/* Add subtle lines between columns */
+	.footer-column:not(:last-child) {
+		border-right: 1px solid #ddd; /* Subtle line on the right for all but last column */
+		padding-right: 20px; /* Space between content and line */
+	}
+
+	.footer-credits {
+		grid-column: 1 / -1; /* Center below the three columns */
+		text-align: center; /* Centered credits */
+		border-top: 1px solid #ddd; /* Line above credits */
+		padding-top: 10px; /* Space above text */
+		margin-top: 15px; /* Space above credits */
+		font-size: 0.8rem; /* Subtle text size */
+		color: #999; /* Subtle text color */
+	}
+
+	.footer-social-icons {
+		display: flex; /* Use flexbox for alignment */
+		justify-content: space-around; /* Evenly space icons horizontally */
+		margin-top: 10px; /* Space above icons */
+	}
+
+	.footer-social-icons img {
+		width: 28px; /* Thicker icons */
+		height: 28px; /* Maintain aspect ratio */
 	}
 }

@@ -1,39 +1,127 @@
 import React from "react";
-//import { Link } from "react-router-dom";
-
+import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react";
 import "./styles/footer.css";
 
 const Footer = () => {
 	return (
-		<React.Fragment>
-			<div className="footer">
-				{/* <div className="footer-links">
+		<footer className="footer">
+			<div className="footer-container">
+				<div className="footer-column about-us">
+					<h3>About Alas.dev</h3>
+					<p>
+						I'm a web developer based in Meycauayan, specializing in
+						building custom web applications. I focus on creating
+						user-friendly solutions that cater to your unique needs.
+					</p>
+				</div>
+
+				<div className="footer-column quick-links">
+					<h3>Quick Links</h3>
 					<ul className="footer-nav-link-list">
-						<li className="footer-nav-link-item">
-							<Link to="/">Home</Link>
+						<li>
+							<a
+								href="/"
+								className="hover-link"
+								title="Return to the homepage"
+							>
+								Home
+							</a>
 						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/about">About</Link>
+						<li>
+							<a
+								href="/about"
+								className="hover-link"
+								title="Learn more about me"
+							>
+								About
+							</a>
 						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/projects">Projects</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/articles">Articles</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/contact">Contact</Link>
+						<li>
+							<a
+								href="/projects"
+								className="hover-link"
+								title="View my projects"
+							>
+								Projects
+							</a>
 						</li>
 					</ul>
-				</div>*/}
+				</div>
 
-				<div className="footer-credits">
-					<div className="footer-credits-text">
-						© 2024 Alas.dev. All Rights Reserved.
+				<div className="footer-column connect-us">
+					<h3>Connect With Me</h3>
+					<div className="footer-social-icons">
+						<a
+							href="https://www.facebook.com/ace.labador.3"
+							className="hover-link"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Facebook
+								size={24}
+								color="#14b8a6"
+								className="social-icon"
+							/>
+						</a>
+						<a
+							href="https://x.com/Ac3Labador"
+							className="hover-link"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Twitter
+								size={24}
+								color="#14b8a6"
+								className="social-icon"
+							/>
+						</a>
+						<a
+							href="https://www.instagram.com/ac3labador/"
+							className="hover-link"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Instagram
+								size={24}
+								color="#14b8a6"
+								className="social-icon"
+							/>
+						</a>
+						<a
+							href="https://www.linkedin.com/in/alasdev/"
+							className="hover-link"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Linkedin
+								size={24}
+								color="#14b8a6"
+								className="social-icon"
+							/>
+						</a>
+						<a
+							href="https://github.com/Alas-3"
+							className="hover-link"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Github
+								size={24}
+								color="#14b8a6"
+								className="social-icon"
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+
+			<div className="footer-credits">
+				<p>
+					&copy; {new Date().getFullYear()} Alas.dev. All Rights
+					Reserved.
+				</p>
+			</div>
+		</footer>
 	);
 };
 
