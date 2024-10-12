@@ -38,6 +38,16 @@
 	border-radius: 50%; /* Make the logos round */
 }
 
+.projects-subtitle {
+    padding-top: 4rem; /* Default padding for desktop */
+}
+
+@media (max-width: 1024px) {
+    .projects-subtitle {
+        padding-top: 2rem; /* Padding for mobile view */
+    }
+}
+
 @media (max-width: 600px) {
 	.projects-container {
 		padding-top: 60px;
