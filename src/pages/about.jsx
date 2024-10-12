@@ -31,10 +31,7 @@ const About = () => {
 					content="About Ace Labador, Ace Labador biography, Ace Labador portfolio, front-end engineer, React developer, Next.js developer, web developer, web development, UI/UX developer, software engineer"
 				/>
 				<meta name="author" content="Ace Labador" />
-				<link
-					rel="canonical"
-					href="https://alas-dev.vercel.app/about"
-				/>
+
 
 				{/* Open Graph Tags for Social Media Sharing */}
 				<meta property="og:title" content="About Ace Labador" />

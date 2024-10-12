@@ -89,7 +89,6 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<link rel="icon" href="/favicon.ico" />
 				<title>Ace Labador | Portfolio</title>
 				<meta
 					name="keywords"
@@ -97,7 +96,6 @@ const Homepage = () => {
 				/>
 
 				<meta name="author" content="Ace Labador" />
-				<link rel="canonical" href="https://alas-dev.vercel.app" />
 
 				{/* Open Graph Tags for Social Media Sharing */}
 				<meta property="og:title" content="Alas' Portfolio" />

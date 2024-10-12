@@ -29,10 +29,7 @@ const Projects = () => {
 					content="Ace Labador projects, React projects, Next.js projects, front-end engineer projects, web development projects, JavaScript applications, web applications, portfolio projects, coding examples"
 				/>
 				<meta name="author" content="Ace Labador" />
-				<link
-					rel="canonical"
-					href="https://alas-dev.vercel.app/projects"
-				/>
+
 
 				{/* Open Graph Tags for Social Media Sharing */}
 				<meta property="og:title" content="Ace Labador's Projects" />
