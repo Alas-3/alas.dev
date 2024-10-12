@@ -142,21 +142,21 @@ const Homepage = () => {
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
-								<div className="title homepage-title">
+								<h1 className="title homepage-title">
 									<HighlightedText
-										text={INFO.homepage.title}
+										text={"Ace Labador | Web Developer"}
 										keywords={keywords}
 										highlightColor={highlightColor}
 									/>
-								</div>
+								</h1>
 
-								<div className="subtitle homepage-subtitle">
+								<h2 className="subtitle homepage-subtitle">
 									<HighlightedText
 										text={INFO.homepage.description}
 										keywords={keywords}
 										highlightColor={highlightColor}
 									/>
-								</div>
+								</h2>
 							</div>
 						</div>
 

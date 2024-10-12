@@ -13,7 +13,7 @@ const Logo = (props) => {
 	}
 
 	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
+		<img src={INFO.main.logo} alt="Ace Labador - Web Developer" className="logo" width={width} />
 	);
 
 	return (

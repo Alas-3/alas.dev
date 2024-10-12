@@ -101,7 +101,7 @@ const About = () => {
 									<div className="about-image-wrapper">
 										<img
 											src="/images/personal_logo.png"
-											alt="about"
+											alt="Ace Labador - Personal Logo"
 											className="about-image"
 											loading="lazy"
 										/>

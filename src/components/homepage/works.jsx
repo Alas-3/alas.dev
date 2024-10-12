@@ -16,7 +16,7 @@ const Works = () => {
 						<div className="work">
 							<img
 								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPlxGEa_lx4b8-5QFW2a8vwTxXwLFkCjN2xQ&s"
-								alt="Freelance"
+								alt="Ace Labador - Freelance"
 								className="work-image"
 							/>
 							<div className="work-title">D.R.A Jewelry</div>
@@ -29,7 +29,7 @@ const Works = () => {
 						<div className="work">
 							<img
 								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3BHhskCCwnOZI_ZfbX6suvMUonVnUKwSm2w&s"
-								alt="wewhiten"
+								alt="Ace Labador - Sales wewhiten"
 								className="work-image"
 							/>
 							<div className="work-title">WeWhiten</div>
