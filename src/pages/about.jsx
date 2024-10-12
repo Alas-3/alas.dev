@@ -66,7 +66,7 @@ const About = () => {
 
 				<link
 					rel="preload"
-					href="/images/personal_logo.png" // Update the path if needed
+					href="/images/ace-labador-personal_logo.png" // Update the path if needed
 					as="image"
 				/>
 				{/* JSON-LD for structured data */}
@@ -97,7 +97,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="/images/personal_logo.png"
+											src="/images/ace-labador-personal_logo.png"
 											alt="Ace Labador - Personal Logo"
 											className="about-image"
 											loading="lazy"
