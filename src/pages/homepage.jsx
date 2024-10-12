@@ -103,7 +103,7 @@ const Homepage = () => {
 					property="og:description"
 					content="Showcasing projects and skills of Alas, a front-end engineer specializing in React & Next.js."
 				/>
-				<meta property="og:image" content="images/webprofile.png" />
+				<meta property="og:image" content="images/ace-labador-webprofile.png" />
 				<meta property="og:url" content="https://alas-dev.vercel.app" />
 				<meta property="og:type" content="website" />
 
@@ -114,7 +114,7 @@ const Homepage = () => {
 					name="twitter:description"
 					content="Explore the portfolio of Alas, a front-end engineer specializing in React & Next.js."
 				/>
-				<meta name="twitter:image" content="/images/webprofile.png" />
+				<meta name="twitter:image" content="/images/ace-labador-webprofile.png" />
 
 				{/* Robots */}
 				<meta name="robots" content="index, follow" />
