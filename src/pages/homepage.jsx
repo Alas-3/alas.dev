@@ -89,7 +89,7 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>Ace Labador | Portfolio</title>
+				<title>Christopher Ace Labador | Portfolio</title>
 				<meta
 					name="keywords"
 					content="Alas Dev, Ace Labador, Christopher Ace Labador, Ace Labador portfolio, Ace Labador front-end developer, front-end engineer, React developer, Next.js expert, JavaScript developer, web developer, web development, modern web development, responsive design, UI/UX developer, Firebase developer, Supabase expert, full-stack developer, React portfolio, Next.js portfolio, Ace Labador projects, Ace Labador resume, software engineer, web applications, JavaScript engineer, Alas personal website, Ace Labador front-end portfolio, Ace Labador developer, web design, web performance optimization, mobile-responsive web design, SEO expert, Next.js SEO, Ace Labador coding projects, Meycauayan, Bulacan, React coding examples, interactive web applications, progressive web apps, Ace Labador GitHub, Ace Labador LinkedIn"
