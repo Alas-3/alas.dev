@@ -1,5 +1,2 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /
-
-Sitemap: https://alas-dev.vercel.app/sitemap.xml
+Disallow: /
